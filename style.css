@@ -1,0 +1,109 @@
+/* colours:- */
+/* blue - #232e40 */
+@font-face {
+    font-family: NotoSansJP;
+    src: url(NotoSansJP-VariableFont_wght.otf)format("opentype");
+}
+
+body{
+    margin: 0;
+    font-family: NotoSansJP;
+    color: #3a3a3a;
+}
+
+.flex{
+    display: flex;
+}
+
+.navbar {
+    background-color: #232e40;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 100px;
+    /* height: 50px; */
+    margin-right: 10px;
+  }
+
+  .text {
+    display: flex;
+    align-items: center;
+  }
+
+  .flag {
+    display: flex;
+    align-items: center;
+  }
+
+  .flag img {
+    width: 30px;
+    /* height: 20px; */
+    margin-left: 10px;
+  }
+
+.main_info_box{
+    padding: 20px;
+}
+
+.iphone-pro-pics img{
+    width: 100%;
+}
+
+.start{
+  background-color: #232e40;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.start:hover{
+  cursor: pointer;
+  background-color: #141a25;
+  transition: 0.25s;
+}
+
+.survey_box{
+  padding: 20px;
+}
+
+#textToCopy{
+  background-color: #232e40;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+#copyButton{
+  background-color: #232e40;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#copyButton:hover{
+  cursor: pointer;
+  background-color: #141a25;
+  transition: 0.25s;
+}

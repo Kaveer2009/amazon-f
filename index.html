@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZON LOYALTY PROGRAM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon/Amazon_icon.svg" type="image/x-icon">
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+          <img src="images/logo/amazon-logo-amazon-logo-white.png" alt="Brand Logo">
+          <!-- <span>Brand</span> -->
+        </div>
+        <div class="text">
+          <span>LOYALTY PROGRAM</span>
+        </div>
+        <div class="flag">
+          <img src="images/Indian Flag/in-square-01.png" alt="Country Flag">
+        </div>
+      </div>
+
+      <div class="main_info_box">
+        <div>
+            <h1>Congratulations!</h1>
+        </div>
+        <div>
+            Today, you have been randomly selected to take this survey.
+            It will only take a minute and you will receive an amazing prize: <b>Apple IPhone
+                14 pro</b>!
+        </div>
+        <div class="iphone-pro-pics">
+            <img src="images/iphone_pics/iphone-14-pro-pics.jpeg" alt="iphone-14-pro">
+        </div>
+        <div>
+            Like every Wednesday, we offer amazing prizes to 10 users. Today's prize is
+            an <b>Apple IPhone 14 pro</b>! Only 10 lucky users living in India will be the
+            winners!
+        </div>
+        <br>
+        <div>
+            This survey is conducted to improve the services provided to our users, and
+            your participation will be 100% rewarded!
+
+        </div>
+        <div>
+            <center>
+                <button type="submit" class="start" onclick="startTimer()">Start Survey</button>
+            </center>
+        </div>
+        <!-- <div id="timer"></div> -->
+
+        <div>
+            You only have <span id="timer"> -- </span> to complete the survey.
+        </div>
+      </div>
+
+      <div class="survey_box">
+        <div class="q1 q_box">
+            <div class="ques">
+                <b>Questions 1/4: </b>Are you male or female?
+            </div>
+            <div class="options">
+                <input type="checkbox" name="male" id="male">Male
+                <br>
+                <input type="checkbox" name="female" id="female">Female
+                <br>
+                <input type="checkbox" name="other" id="other">Other
+            </div>
+        </div>
+        <br>
+        <div class="q2 q_box">
+            <div class="ques">
+                <b>Questions 2/4: </b>Select your age:-
+            </div>
+            <div class="options">
+                <input type="checkbox" name="5-20" id="5-20">Between 5-20 years
+                <br>
+                <input type="checkbox" name="20-35" id="20-35">Between 20-35 years
+                <br>
+                <input type="checkbox" name="35-60" id="35-60">Between 35-60 years
+            </div>
+        </div>
+        <br>
+        <div class="q3 q_box">
+            <div class="ques">
+                <b>Questions 3/4: </b>Select colour:-
+            </div>
+            <div class="options">
+                <input type="checkbox" name="black" id="black">Black
+                <br>
+                <input type="checkbox" name="white" id="white">White
+                <br>
+                <input type="checkbox" name="gold" id="gold">Gold
+                <br>
+                <input type="checkbox" name="purple" id="purple">Purple
+            </div>
+        </div>
+        <div class="q4 q_box">
+            <div class="ques">
+                <b>Questions 4/4: </b>Copy and share this link to your 10-15 friends on whatsapp.
+            </div>
+            <div class="options">
+                <p id="textToCopy">
+                    Hey Friend,<br>
+                    Click on the link to win the *Apple iPhone 14 Pro* 
+                    <br>
+                    https://kaveer2009.github.io/amazon-f
+                </p>
+                <button id="copyButton">Copy</button>
+
+            </div>
+
+            <div>
+                <center>
+                    <button type="submit" onclick="window.location = 'completed.html'" class="start">Submit</button>
+                </center>
+            </div>
+        </div>
+      </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
